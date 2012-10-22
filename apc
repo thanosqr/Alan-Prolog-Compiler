@@ -1,4 +1,0 @@
-#!/bin/sh
-
-exec swipl -q  -f none -g "load_files([interface],[silent(true)])" \
-         -t interface:get_args -- $*
